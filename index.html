@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Uh Rent - Premium Car Rental Service">
+    <title>UH Rent - Car Rental Service</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="https://i.ibb.co.com/G34F36MP/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://i.ibb.co.com/G34F36MP/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Promo Popup -->
+    <div class="popup-overlay" id="promoPopup">
+        <div class="popup-box">
+            <img src="https://i.ibb.co.com/dwz6YQWg/Gemini-Generated-Image-u5ugtfu5ugtfu5ug.png" alt="Special Promo" style="width: 100%; border-radius: 12px; margin-bottom: 20px;">
+            <button class="btn-primary" onclick="closePopup()">Book Now</button>
+        </div>
+    </div>
+
+    <!-- Social Sidebar -->
+    <div class="social-sidebar">
+        <a href="https://kanal.umk.ac.id/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://instagram.com/uh_studio.id?igsh=MXhpNDN0b2psendiaw==" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/6289667182588" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <div class="social-divider"></div>
+    </div>
+
+    <!-- Header/Navigation -->
+    <header id="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <img src="https://i.ibb.co.com/G34F36MP/logo.png" alt="UH Rent Car Logo">
+                    
+                    <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <div class="nav-menu" id="navMenu">
+                        <a href="#home" class="nav-link">Home</a>
+                        <a href="#about" class="nav-link">About</a>
+                        <a href="#cars" class="nav-link">Cars</a>
+                        <a href="#contacts" class="nav-link">Contacts</a>
+                    </div>                    
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <h2 class="hero-title">Nikmati perjalanan anda dengan mobil-mobil nyaman kami</h2>
+                    <p class="hero-subtitle">UH Rent siap membantu pengalaman terbaik dalam berkendara</p>
+                    <button class="btn-primary btn-large" onclick="smoothScroll('#cars')">
+                        Explore Now
+                    </button>
+                </div>
+                
+                <div class="hero-image">
+                    <img src="https://i.ibb.co.com/QvHzMzWX/Gemini-Generated-Image-ec6gdeec6gdeec6g.png" 
+                         alt="garasi" 
+                         loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-line"></div>
+                <h2 class="section-title">About Us</h2>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="https://i.ibb.co.com/LXCVMnGv/Gemini-Generated-Image-3u4a0r3u4a0r3u4a.png" 
+                         alt="garasi" 
+                         loading="lazy">
+                </div>
+                
+                <div class="about-content">
+                    <p class="about-text">
+                        Kami adalah perusahaan rental mobil terkemuka yang menyediakan berbagai pilihan kendaraan berkualitas tinggi untuk memenuhi kebutuhan perjalanan Anda. Dengan armada yang terawat dengan baik dan layanan pelanggan yang ramah, kami berkomitmen untuk memberikan pengalaman berkendara yang aman, nyaman, dan menyenangkan bagi setiap pelanggan kami.
+                    </p>
+                    <a href="#contacts" class="read-more">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Cars Section -->
+    <section id="cars" class="cars-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-line"></div>
+                <h2 class="section-title">Koleksi Mobil Kami</h2>
+            </div>
+            
+            <div class="cars-grid">
+                <!-- Tambahkan mobil baru disini dengan format yang sama -->
+                
+                <div class="car-card" 
+                     data-name="Toyota Land Cruiser GR 300"
+                     data-price="1.250.000"
+                     data-seats="7"
+                     data-fuel="Solar"
+                     data-type="SUV Car"
+                     data-image="https://imgcdnblog.carbay.com/wp-content/uploads/2021/08/03150539/Toyota-LC-200-GR-Sport_01-500x333.jpg">
+                    <div class="car-image">
+                        <img src="https://imgcdnblog.carbay.com/wp-content/uploads/2021/08/03150539/Toyota-LC-200-GR-Sport_01-500x333.jpg" alt="Toyota Land Cruiser GR 300">
+                    </div>
+                    <div class="car-info">
+                        <h3>Toyota Land Cruiser GR 300</h3>
+                        <div class="car-price">Rp 1.250.000<span>/hari</span></div>
+                        <div class="car-passengers">👥 7 Penumpang</div>
+                    </div>
+                </div>
+
+                <div class="car-card"
+                     data-name="Toyota Land Cruiser 300"
+                     data-price="1.250.000"
+                     data-seats="7"
+                     data-fuel="Solar"
+                     data-type="SUV Car"
+                     data-image="https://asset.kompas.com/crops/HtV-Q2DZRAW0pUNXld45k5vqN60=/218x17:1813x1080/750x500/data/photo/2021/08/03/6108ae70b98fb.jpg">
+                    <div class="car-image">
+                        <img src="https://asset.kompas.com/crops/HtV-Q2DZRAW0pUNXld45k5vqN60=/218x17:1813x1080/750x500/data/photo/2021/08/03/6108ae70b98fb.jpg" alt="Toyota Land Cruiser 300">
+                    </div>
+                    <div class="car-info">
+                        <h3>Toyota Land Cruiser 300</h3>
+                        <div class="car-price">Rp 1.250.000<span>/hari</span></div>
+                        <div class="car-passengers">👥 7 Penumpang</div>
+                    </div>
+                </div>
+
+                <div class="car-card"
+                     data-name="Toyota Alphard"
+                     data-price="1.200.000"
+                     data-seats="7"
+                     data-fuel="Bensin"
+                     data-type="MPV"
+                     data-image="https://static.wixstatic.com/media/261cbb_3c6bf7da5eff47c5a65d5424b28ecb5c~mv2.png/v1/fit/w_500,h_500,q_90/file.png">
+                    <div class="car-image">
+                        <img src="https://static.wixstatic.com/media/261cbb_3c6bf7da5eff47c5a65d5424b28ecb5c~mv2.png/v1/fit/w_500,h_500,q_90/file.png" alt="Toyota Alphard">
+                    </div>
+                    <div class="car-info">
+                        <h3>Toyota Alphard</h3>
+                        <div class="car-price">Rp 1.200.000<span>/hari</span></div>
+                        <div class="car-passengers">👥 7 Penumpang</div>
+                    </div>
+                </div>
+
+                <div class="car-card"
+                     data-name="Hyundai Palisade"
+                     data-price="1.200.000"
+                     data-seats="7"
+                     data-fuel="Solar"
+                     data-type="SUV Car"
+                     data-image="https://hyundaimobil.co.id/storage/news/December2024/QDDmfbde7W61FTSeOnRo.jpg">
+                    <div class="car-image">
+                        <img src="https://hyundaimobil.co.id/storage/news/December2024/QDDmfbde7W61FTSeOnRo.jpg" alt="Hyundai Palisade">
+                    </div>
+                    <div class="car-info">
+                        <h3>Hyundai Palisade</h3>
+                        <div class="car-price">Rp 1.200.000<span>/hari</span></div>
+                        <div class="car-passengers">👥 7 Penumpang</div>
+                    </div>
+                </div>
+
+                <div class="car-card"
+                     data-name="Hyundai Santa Fe"
+                     data-price="1.100.000"
+                     data-seats="7"
+                     data-fuel="Bensin"
+                     data-type="MPV"
+                     data-image="https://www.hyundai.com/content/dam/hyundai/id/id/images/find-a-car/360vr/all-new-sf-calligraphy-h/lhd/ex/sf-20h-alloy/sf-hev-c-cwp/sf-hev-c-cwp_32.png">
+                    <div class="car-image">
+                        <img src="https://www.hyundai.com/content/dam/hyundai/id/id/images/find-a-car/360vr/all-new-sf-calligraphy-h/lhd/ex/sf-20h-alloy/sf-hev-c-cwp/sf-hev-c-cwp_32.png" alt="Hyundai Santa Fe">
+                    </div>
+                    <div class="car-info">
+                        <h3>Hyundai Santa Fe</h3>
+                        <div class="car-price">Rp 1.100.000<span>/hari</span></div>
+                        <div class="car-passengers">👥 7 Penumpang</div>
+                    </div>
+                </div>
+
+                <div class="car-card"
+                     data-name="Hyundai Ioniq 5"
+                     data-price="1.000.000"
+                     data-seats="5"
+                     data-fuel="Bensin"
+                     data-type="MPV"
+                     data-image="https://www.hyundai.com/content/dam/hyundai/id/en/images/hyundai-story/froala/202446030846/images/Ioniq-5.png">
+                    <div class="car-image">
+                        <img src="https://www.hyundai.com/content/dam/hyundai/id/en/images/hyundai-story/froala/202446030846/images/Ioniq-5.png" alt="Hyundai Ioniq 5">
+                    </div>
+                    <div class="car-info">
+                        <h3>Hyundai Ioniq 5</h3>
+                        <div class="car-price">Rp 1.000.000<span>/hari</span></div>
+                        <div class="car-passengers">👥 5 Penumpang</div>
+                    </div>
+                </div>
+
+                <div class="car-card"
+                     data-name="Toyota Avanza"
+                     data-price="400.000"
+                     data-seats="7"
+                     data-fuel="Bensin"
+                     data-type="MPV"
+                     data-image="https://static.wixstatic.com/media/304dbc_6028ac56546f4817b3fde0187bb73fa0~mv2.png/v1/fit/w_500,h_500,q_90/file.png">
+                    <div class="car-image">
+                        <img src="https://static.wixstatic.com/media/304dbc_6028ac56546f4817b3fde0187bb73fa0~mv2.png/v1/fit/w_500,h_500,q_90/file.png" alt="Toyota Avanza">
+                    </div>
+                    <div class="car-info">
+                        <h3>Toyota Avanza</h3>
+                        <div class="car-price">Rp 400.000<span>/hari</span></div>
+                        <div class="car-passengers">👥 7 Penumpang</div>
+                    </div>
+                </div>
+
+                <div class="car-card"
+                     data-name="Toyota Veloz"
+                     data-price="450.000"
+                     data-seats="7"
+                     data-fuel="Bensin"
+                     data-type="MPV"
+                     data-image="https://static.wixstatic.com/media/304dbc_8d08c4124baa466fac4b1de4476b0c2e~mv2.png/v1/fill/w_688,h_408,al_c,q_85,enc_avif,quality_auto/304dbc_8d08c4124baa466fac4b1de4476b0c2e~mv2.png">
+                    <div class="car-image">
+                        <img src="https://static.wixstatic.com/media/304dbc_8d08c4124baa466fac4b1de4476b0c2e~mv2.png/v1/fill/w_688,h_408,al_c,q_85,enc_avif,quality_auto/304dbc_8d08c4124baa466fac4b1de4476b0c2e~mv2.png" alt="Toyota Veloz">
+                    </div>
+                    <div class="car-info">
+                        <h3>Toyota Veloz</h3>
+                        <div class="car-price">Rp 450.000<span>/hari</span></div>
+                        <div class="car-passengers">👥 7 Penumpang</div>
+                    </div>
+                </div>
+
+                <div class="car-card"
+                     data-name="Toyota Innova Reborn"
+                     data-price="550.000"
+                     data-seats="7"
+                     data-fuel="Solar"
+                     data-type="MPV"
+                     data-image="https://res.cloudinary.com/mufautoshow/image/upload/f_auto,f_auto/w_1200/v1608086374/moas/news/1604391565_toyota-innova-reborn-ini-dia-spesifikasi-dan-fitur-barunya.jpg">
+                    <div class="car-image">
+                        <img src="https://res.cloudinary.com/mufautoshow/image/upload/f_auto,f_auto/w_1200/v1608086374/moas/news/1604391565_toyota-innova-reborn-ini-dia-spesifikasi-dan-fitur-barunya.jpg" alt="Toyota Innova Reborn">
+                    </div>
+                    <div class="car-info">
+                        <h3>Toyota Innova Reborn</h3>
+                        <div class="car-price">Rp 550.000<span>/hari</span></div>
+                        <div class="car-passengers">👥 7 Penumpang</div>
+                    </div>
+                </div>
+
+            </div>
+                        <!-- INFO BAWAH -->
+            <div class="section-subtitle">
+                <p>
+                    Butuh tipe mobil lain? Tinggal chat saja di 
+                    <a href="tel:+6289667182588">+62 896-6718-2588</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Premium Services Section -->
+    <section class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title light">Layanan Premium Kami</h2>
+                <p class="section-subtitle">
+                     UH Rent memiliki berbagai layanan premium untuk kenyamanan Anda selama menyewa mobil bersama kami.
+                </p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="far fa-clock"></i>
+                    </div>
+                    <h3 class="service-title">24 Jam Support</h3>
+                    <p class="service-text">Kami mendukung Anda setiap saat</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="service-title">Kualitas Jaminan</h3>
+                    <p class="service-text">Semua mobil memiliki asuransi yang berlaku</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3 class="service-title">Dilengkapi GPS</h3>
+                    <p class="service-text">Semua mobil dilengkapi dengan sistem navigasi GPS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-line"></div>
+                <h2 class="section-title">Apa kata mereka?</h2>
+            </div>
+            
+            <div class="testimonials-wrapper">
+                <button class="testimonial-nav prev" id="prevTestimonial" aria-label="Previous">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                
+                <div class="testimonials-container" id="testimonialsContainer"></div>
+                
+                <button class="testimonial-nav next" id="nextTestimonial" aria-label="Next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3 class="stat-number">50+</h3>
+                    <p class="stat-label">Mobil siap Jalan</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number">200+</h3>
+                    <p class="stat-label">customer puas</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number">10+</h3>
+                    <p class="stat-label">Garasi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacts" class="contact-section">
+        <div class="container">
+            
+            <div class="section-header">
+                <div class="section-line"></div>
+                <h2 class="section-title">Contact Us</h2>
+            </div>
+
+            <!-- GRID WAJIB -->
+            <div class="contact-grid">
+
+                <!-- FORM (KIRI) -->
+                <div class="contact-form" id="contactForm">
+                    <input type="text" id="name" placeholder="Your Name*" required>
+                    <input type="email" id="email" placeholder="Your Email*" required>
+                    <textarea id="message" placeholder="Your Message*" rows="5" required></textarea>
+
+                    <button type="button" class="btn-primary" onclick="submitForm()">
+                        Send A Message
+                    </button>
+                </div>
+
+                <!-- GAMBAR (KANAN) -->
+                <div class="contact-image">
+                    <img src="https://i.ibb.co.com/pvzsPN8h/Gemini-Generated-Image-lu3jr4lu3jr4lu3j.png" 
+                        alt="Kantor uh rent car" 
+                        loading="lazy">
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content"> 
+                <div class="footer-info">
+                    <h2>Kontak Kami</h2>
+                    <p><i class="fab fa-whatsapp"></i> WhatsApp: 089667182588</p>
+                    <p><i class="far fa-envelope"></i> Email: uhrentcar@rental.co.id</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Alamat: Jl Kudus-Jepara KM 05 Kaliwungu Kudus</p>
+                    <p>&copy; 2025 UH Rent. All rights reserved.</p>
+                </div>
+                               
+                <div class="footer-social">
+                    <a href="https://kanal.umk.ac.id/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/uh_studio.id?igsh=MXhpNDN0b2psendiaw==" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/6289667182588" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Car Detail Popup -->
+    <div id="carPopup" class="car-popup-overlay" style="display: none;">
+        <div class="car-popup-content" id="carPopupContent"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
